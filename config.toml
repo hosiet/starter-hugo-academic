@@ -9,7 +9,7 @@
 baseurl = "/"
 
 # Title of your site
-title = "Academic"
+title = "Yang, Boyuan @ PITT"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -30,7 +30,7 @@ googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
@@ -56,31 +56,31 @@ enableGitInfo = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "default"
+  color_theme = "dark"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Yang, Boyuan"
+  role = "PhD Student of Electrical and Computer Engineering"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "University of Pittsburgh", url = "https://pitt.edu" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "by.yang@pitt.edu"
+  address = "1237 Benedum Hall, University of Pittsburgh, Pennsylvania, USA"
+  office_hours = "Tuesday 16:00 to 18:00 or email for appointment"
+  phone = ""
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
-  keybase = ""
+  keybase = "hosiet"
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -107,8 +107,8 @@ enableGitInfo = false
   #   3: OpenStreetMap (Mapbox)
   map = 0
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = "40.443670"
+  longitude = "-79.958591"
   zoom = 15
 
   # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
@@ -128,7 +128,7 @@ enableGitInfo = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -156,7 +156,7 @@ enableGitInfo = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
+  highlight_languages = ["python"]
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
@@ -233,22 +233,22 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:by.yang@pitt.edu"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/hosiet"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.com/citations?user=Uqn07nkAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/hosiet"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -270,20 +270,20 @@ enableGitInfo = false
   url = "#about"
   weight = 1
 
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 2
+#[[menu.main]]
+#  name = "Publications"
+#  url = "#publications_selected"
+#  weight = 2
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
   weight = 3
 
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
+#[[menu.main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 4
 
 [[menu.main]]
   name = "Teaching"
