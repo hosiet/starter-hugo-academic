@@ -15,4 +15,4 @@ weight = 60
 
 +++
 
-* **2018 Fall:** [`ENGR 1869`](https://psmobile.pitt.edu/app/catalog/listsections/UPITT/2191/108247/PIT/PGH) Intro to Electrical Engineering for Non EE's
+* **2018 Fall:** [`ENGR 1869`](https://psmobile.pitt.edu/app/catalog/listsections/UPITT/2191/108247/PIT/PGH) [Intro to Electrical Engineering for Non EE's](pages/engr1869_2018fall/)
