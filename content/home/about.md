@@ -26,3 +26,4 @@ weight = 5
 # Biography
 
 Boyuan Yang is a PhD student of Electrical and Computer Engineering in University of Pittsburgh.
+He is currently working in Mobile Systems and Networking Lab, supervised by [Dr. Wei Gao](https://pitt.edu/~weigao).
