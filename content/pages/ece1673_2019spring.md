@@ -12,6 +12,17 @@ Course homepage: [`http://www.pitt.edu/~zhm4/ECE1673/`](http://www.pitt.edu/~zhm
 
 * * *
 
+## TA information
+
+```
+Boyuan Yang
+Email: by.yang@pitt.edu
+Office: 1237 Benedum Hall
+Office Hours: TBA
+```
+
+## Lab Slides
+
 * 2019-01-09 (Thursday): [Slides](https://drive.google.com/file/d/1BpfFoYPRUlxs-9pzyOFiiYuBaSc_mwj7/view?usp=sharing)
 
 
